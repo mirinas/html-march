@@ -1,118 +1,49 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mano HTML svetainė</title>
+    <title>Menu</title>
 </head>
 <body>
 
-    <h1>Mokausi HTML</h1>
-    <a href="/index.html">Home</a>
-    <a target="_blank" href="https://edon.lt">edOn</a>
-
-    <h3>Straipsniai</h3>
-    <p>
-        Nullam a erat elit. Sed aliquam, lectus id dignissim imperdiet, ex turpis aliquet metus, vel vestibulum ex eros vel ipsum. <b>Praesent mattis</b>, est molestie auctor posuere, dolor libero tincidunt felis, <mark>ac rhoncus magna nisl id sapien. In tincidunt diam eu felis consequat</mark>, et imperdiet erat placerat. Morbi venenatis interdum lacus nec pulvinar. Fusce eget luctus purus, in mattis urna. Curabitur tellus est, sollicitudin non aliquet sit amet, suscipit vitae urna. Pellentesque ac libero enim.
-    </p>
-    <p>H<sub>2</sub>O</p>
-    <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
-
-
-    <pre>
-                                    My Bonnie lies over the ocean.
-                                    My Bonnie lies over the sea.
-                                    My Bonnie lies over the ocean.
-                                    Oh, bring back my Bonnie to me.
-    </pre>
-  
-
-    <p title="Pastraipa apie universitetus">
-        Aliquam imperdiet mattis nulla sit amet ultrices. Mauris consequat condimentum lorem, sed aliquam libero blandit at. Suspendisse potenti. Quisque blandit purus ac venenatis vulputate. Etiam aliquam eu enim sit amet porttitor. Praesent ultrices metus at nunc porta viverra. Pellentesque lorem lorem, tincidunt vel eleifend in, malesuada ut nunc. Integer eget lacinia justo. Vivamus egestas, arcu non dignissim semper, dui est placerat lacus, nec efficitur mauris purus at urna. Aliquam lobortis mattis consequat. Praesent rhoncus, nunc et maximus finibus, urna lorem auctor orci, nec pellentesque quam urna ut tellus. Morbi vestibulum elementum lacus vitae dictum. Maecenas nisl sapien, cursus eget efficitur at, sollicitudin quis eros. In pharetra tincidunt porttitor. Proin eu est vel tellus laoreet ultricies quis nec ex.
-    </p>
-
-    <h3>Nuotraukos</h3>
-    <a href="https://southampton.ac.uk">
-        <img alt="Southampton campus" src="images/campus.webp" height="300">
-    </a>
-    <img alt="Vilnius campus" src="https://walkablevilnius.com/content/uploads/9_4.jpg" height="300">
-
-    <p>Cryptids of Cornwall:</p>
-
-    <dl>
-    <dt>Beast of Bodmin</dt>
-    <dd>A large feline inhabiting Bodmin Moor.</dd>
-
-    <dt>Morgawr</dt>
-    <dd>A sea serpent.</dd>
-
-    <dt>Owlman</dt>
-    <dd>A giant owl-like creature.</dd>
-    </dl>
+    <header>
+        <img width="100" src="https://freedesignfile.com/image/preview/20452/tapas-drawing-clipart.png">
+        <span style="font-size: 48px;">Tapas</span>
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="order.html">Order</a>
+        </nav>
+        <hr>
+    </header>
 
 
-    <h3>Komentarai</h3>
-    <form>
-        <input placeholder="El. paštas" required type="email">
-        <br>
-        <label>Įvertinimas</label>
-        <br>
-        <input type="range" min="1" max="5">
-        <br>
-        <label>Komentaras</label>
-        <br>
-        <textarea minlength="5" required></textarea>
-        <br>
-        <input type="submit" value="Comment">
-    </form>
-
-    <hr>
-
-    <h4>Universitetai</h4>
-    <ul>
-        <li>Vilnius university</li>
-        <li>Kauno technologijos university</li>
-        <li>LSMU</li>
-    </ul>
-    <ol type="I" start="5">
-        <li>Vilnius university</li>
-        <li>Kauno technologijos university</li>
-        <li>LSMU</li>
-    </ol>
-
-    <h3>Medžiai</h3>
-    <table border="1">
-        <tr>
-            <th>Tree Name</th>
-            <th>Height (m)</th>
-            <th>Age (years)</th>
-        </tr>
-        <tr>
-            <td>Oak</td>
-            <td>20</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>Pine</td>
-            <td>30</td>
-            <td>80</td>
-        </tr>
-        <tr>
-            <td>Maple</td>
-            <td>15</td>
-            <td>50</td>
-        </tr>
-        <tr>
-            <td>Redwood</td>
-            <td>100</td>
-            <td>500</td>
-        </tr>
-        <tr>
-            <td>Birch</td>
-            <td>12</td>
-            <td>40</td>
-        </tr>
-    </table>
-
+    <main>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Quantity</th>
+                <th>Picture</th>
+            </tr>
+            <tr>
+                <td>Very good sandwitch</td>
+                <td><input type="number" min="1"></td>
+                <td><img height="100" src="https://i0.wp.com/spainonafork.com/wp-content/uploads/2020/01/tapas1-11blog.png?fit=750%2C750&ssl=1"></td>
+            </tr>
+            <tr>
+                <td>Churros with chocolate</td>
+                <td><input type="number" min="1"></td>
+                <td><img height="100" src="https://assets.bonappetit.com/photos/58ff5f162278cd3dbd2c069c/1:1/w_2560%2Cc_limit/churros.jpg"></td>
+            </tr>
+            <tr>
+                <td>Pastel de nata</td>
+                <td><input type="number" min="1"></td>
+                <td><img height="100"  src="https://i.guim.co.uk/img/media/a6be720e8d2bb458aa666f3980ff025e3166897e/61_1780_3348_2006/master/3348.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=2da7e19af17dab8d16ac8c973aa14579"></td>
+            </tr>
+        </table>
+        <a href="order.html">
+            <button>Confirm order</button>
+        </a>
+    </main>
 </body>
 </html>
