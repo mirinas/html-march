@@ -1,0 +1,19 @@
+article p, article h2 {
+    color: brown;
+}
+
+/* p {
+    color: green;
+} */
+
+h1 + p {
+    color: green;
+}
+
+h1 {
+    color: red;
+}
+
+p ~ h1 {
+    color: blue;
+}
