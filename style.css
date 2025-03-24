@@ -56,8 +56,13 @@ main > * {
     width: 80%;
     margin: auto;
 }
-table, td, th {
+th {
+    border-bottom: 3px solid;
+}
+table {
     border-collapse: collapse;
+}
+td {
     text-align: center;
 }
 table img {
@@ -74,4 +79,33 @@ td, th {
 #order {
     text-align: right;
     margin: 2em 0;
+}
+
+#order button {
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+}
+
+#nuotrauka {
+    text-align: center;
+}
+
+#nuotrauka img {
+    width: 30%;
+}
+
+@media (max-width: 700px) {
+    #nuotrauka img {
+        width: 80%;
+    }
+
+    nav a {
+        display: block;
+        margin-top: 0.5em;
+    }
+
+    header nav {
+        margin-top: 0;
+    }
 }
