@@ -3,8 +3,15 @@
     src: url('font.ttf');
 }
 
+/* .raudona {
+    color: red;
+} */
+
 body {
     font-family: Japan;
+    --japanese-red: rgb(208, 0, 0);
+
+    color: var(--japanese-red);
 }
 
 #logo {
@@ -13,8 +20,58 @@ body {
 header {
     width: 79%;
     display: inline-block;
+    text-align: center;
+    vertical-align: top;
 }
 
+header h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+header nav {
+    margin: 2em 0;
+    font-size: 120%;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 3em;
+    color: var(--japanese-red);
+    transition: all .5s;
+    padding: 0 2em;
+    border: 1px solid var(--japanese-red);
+    border-radius: 4px;
+}
+
+nav a:hover {
+    box-shadow: 5px 5px grey;
+    background: var(--japanese-red);
+    border: 1px solid black;
+    color: white;
+}
+
+
+main > * {
+    width: 80%;
+    margin: auto;
+}
 table, td, th {
-    
+    border-collapse: collapse;
+    text-align: center;
+}
+table img {
+    border-radius: 4px;
+}
+table input {
+    width: 3em;
+}
+td, th {
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+
+#order {
+    text-align: right;
+    margin: 2em 0;
 }
