@@ -1,0 +1,47 @@
+body {
+    background: pink;
+    font-family: Monaco;
+    font-weight: bold;
+}
+
+.inverted {
+    color: pink;
+    background: black;
+}
+
+ul > li {
+    color: red;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+
+    width: 5em;
+    display: inline-block;
+
+    
+    border: 5px dotted cyan;
+    border-radius: 50%;
+
+    cursor: copy;
+
+    margin: 20px;
+    padding: 20px;
+    background: yellow;
+
+    transition: all 2s;
+}
+
+p::first-line {
+    font-size: 60px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: green;
+    background: lime;
+    border-color: red;
+    font-size: 150%;
+    border-style: dashed;
+}
