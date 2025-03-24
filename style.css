@@ -1,0 +1,16 @@
+body {
+    background: pink;
+}
+
+.inverted {
+    color: pink;
+    background: black;
+}
+
+nav a {
+    border: 5px solid;
+}
+
+ul > li {
+    color: red;
+}
