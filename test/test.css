@@ -1,5 +1,5 @@
 body {
-    background: pink;
+    background: rgb(204, 255, 0);
     font-family: Monaco;
     font-weight: bold;
 }
@@ -44,4 +44,26 @@ nav a:hover {
     border-color: red;
     font-size: 150%;
     border-style: dashed;
+}
+
+
+
+#notification {
+    padding: 1em;
+    margin: 1em;
+    background: lightgray;
+    border-radius: 5px;
+    display: none;
+}
+
+#notification.success {
+    background: lightgreen;
+    color: darkgreen;
+    display: inline-block;
+}
+
+#notification.error {
+    background: pink;
+    color: red;
+    display: inline-block;
 }

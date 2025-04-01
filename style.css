@@ -61,6 +61,8 @@ th {
 }
 table {
     border-collapse: collapse;
+    width: 60%;
+    margin: auto;
 }
 td {
     text-align: center;
