@@ -51,6 +51,24 @@ nav a:hover {
     color: white;
 }
 
+nav > * {
+    vertical-align: top;
+}
+
+.menu, .submenu {
+    width: 5em;
+    display: inline-block;
+}
+
+.submenu a {
+    display: block;
+    width: 100%;
+}
+
+.submenu {
+    display: none;
+}
+
 
 main > * {
     width: 80%;

@@ -23,4 +23,3 @@ function checkPassword() {
         document.querySelector('#notification').innerHTML = 'Strong password'
     }
 }
-

@@ -12,8 +12,17 @@
     <header>
         <h1>Tapas</h1>
         <nav>
+            <!-- menu -->
             <a class="raudona" href="index.html">Menu</a>
-            <a class="raudona" href="order.html">Order</a>
+            
+            <!-- order -->
+            <div class="menu" onmouseover="showSubmenu()" onmouseout="hideSubmenu()">
+                <a href="order.html">Order</a>
+                <div class="submenu">
+                    <a>Take away</a>
+                    <a>In restaurant</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -82,5 +91,7 @@
             </a>
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
