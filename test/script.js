@@ -1,15 +1,20 @@
 
 // alert('Gero antradienio :|')
 
+const PI = 3.14251242;
+const EMAIL = 'augustas@test.com'
+
+let title = document.querySelector('#title');
+
 function toEnglish() {
-    document.querySelector('#title').innerHTML = 'Learning HTML'
-    document.querySelector('#title').style.color = 'red'
+    title.innerHTML = 'Learning HTML'
+    title.style.color = 'red'
 }
 
 
 function toLithuanian() {
-    document.querySelector('#title').innerHTML = 'Mokausi HTML'
-    document.querySelector('#title').style.color = 'green'
+    title.innerHTML = 'Mokausi HTML'
+    title.style.color = 'green'
 }
 
 

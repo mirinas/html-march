@@ -53,6 +53,7 @@ nav a:hover {
 
 nav > * {
     vertical-align: top;
+    margin-left: 4em;
 }
 
 .menu, .submenu {
