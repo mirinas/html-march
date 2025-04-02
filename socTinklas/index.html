@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimis</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="messages">
+
+    </div>
+
+    <div id="template" style="display: none;">
+        <div class="message">
+            <div class="message-content">
+                <h3>{{username}}</h3>
+                <p>{{content}}</p>
+            </div>
+            <img src="{{link}}">
+        </div>
+    </div>
+    
+
+    <form id="send-form" method="post" action="https://script.google.com/macros/s/AKfycbwP_kh4FP23dYoqcGS8Pkgq_s7Oc4LocyBapNoteIPp8Rr-X2VP4pD9oea2CqQKWKJ5Ew/exec">
+        <input name="user" required placeholder="Username">
+        <textarea minlength="10" required name="content" placeholder="Enter your message..."></textarea>
+        <input name="link" type="url" placeholder="Image link">
+        <div class="right-align">
+            <img height="40" src="https://media.tenor.com/nEoz_3Q6_1YAAAAj/hourglass-time.gif">
+            <input type="button" onclick="sendMessage()" value="Send">
+        </div>
+    </form>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
